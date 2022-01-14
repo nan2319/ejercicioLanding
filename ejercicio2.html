@@ -1,0 +1,26 @@
+<script>
+   var inicio=["unacadena", 3,9,1,10,500,1,10,true];
+   var nuevo=new Array();
+   for(cont=0;cont<inicio.length;cont++){
+    if(typeof inicio[cont]=== 'number'){
+    nuevo.push(inicio[cont]);
+    //console.log(nuevo);
+    }
+   }
+   function ordenar (nuevo){
+                for (let i=0; i<nuevo.length-1; i++){      
+                        for(let j=0; j<nuevo.length-1;j++){
+                            if(nuevo[j]>nuevo[j+1]){
+                                let aux=nuevo[j];
+                                nuevo[j]=nuevo[j+1];
+                                nuevo[j+1]=aux;
+
+                            }
+                        }
+                }
+            return nuevo;         
+    }
+    
+    console.log(ordenar(nuevo));
+
+</script>
