@@ -1,0 +1,86 @@
+<script>
+
+    class Persona {
+        constructor (nombre, edad){
+            this.nombre=nombre;
+            this.edad=edad;
+        }
+        obtDetalles(){
+            console.log("El nombre es: "+this.nombre+ " y la edad es: "+this.edad);
+        }
+    }
+    //var objDatos=new Persona("nancy", "30");
+    //console.log(objDatos.obtDetalles());
+
+    class Estudiante extends Persona{
+    constructor(nombre,edad,calificacion){
+        super(nombre,edad);
+        this.calificacion=calificacion;
+    }
+    obtDetalles(){
+        super.obtDetalles();
+        console.log("y la calificacion es: "+this.calificacion);
+    }
+}
+//var objDatos2=new Estudiante("nancy",30,9);
+//console.log(objDatos2.obtDetalles());
+
+class Profesor extends Persona{
+    constructor(nombre,edad,calificacion, asignatura, nivel){
+        super(nombre,edad,calificacion);
+        this.asignatura=asignatura;
+        this.nivel=nivel;
+
+    }
+    obtDetalles(){
+        super.obtDetalles();
+        if (this.asignatura== null && this.nivel == null){
+            return ("Asignatura: js, nivel: basico");
+        }
+        console.log("asignatura: "+this.asignatura+ " y nivel: "+this.nivel);
+    }
+}
+//var objDatos3=new Profesor("nancy",30,9,"mate", "principiante");
+//console.log(objDatos3.obtDetalles());
+
+class Grupo {
+    constructor(profesor,promedio,estudiantes){
+        this.profesor=profesor;
+        this.estudiantes=estudiantes;
+        this.promedio=promedio;
+
+        var arrayEstudiantes =new Array();
+    }
+    calificar(){
+        
+        var calRandom= Math.round(Math.random()*10);
+        console.log (calRandom);
+
+    }
+    calculaPromedio(){
+        var calif=0;
+        var arregloCal=new Array();
+        for (let i=0; i<arregloCal.length-1; i++){
+            var total = total/ arregloCal;
+        return ("El promedio es: "+this.promedio);
+        }
+    }
+    obtDetalles(){
+        super.obtDetalles();
+        console.log("profesor: "+this.profesor);
+        console.log("estudiantes: "+this.estudiantes);
+    }
+}
+var objDatos4=new Grupo();
+console.log(objDatos4.calificar());
+console.log(objDatos4.calculaPromedio());
+
+var estudiantes ={nombre: "x", edad: 10,
+                    nombre:"r", edad: 8,
+                    nombre: "t", edad: 14,
+                    nombre:"e", edad: 7,
+                    nombre: "v", edad: 16,
+                    nombre:"d", edad: 5}
+var profesor=new profesor(nombre, edad);
+
+    </script>

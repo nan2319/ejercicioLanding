@@ -1,0 +1,10 @@
+<script>
+    //palindromo
+    function palindromo(cadena){
+    var cadena2= cadena.replace(/\s/g,"").toLowerCase();
+        var nuevaCadena = cadena2.split('').reverse().join('');
+         return cadena2 === nuevaCadena ? "Es un palindromo" : "No es un palindromo";
+    }
+    console.log(palindromo("La ruta nos aporto otro paso natural")); //palindromo
+    console.log(palindromo("otro texto")); //no es palindromo
+    </script>
