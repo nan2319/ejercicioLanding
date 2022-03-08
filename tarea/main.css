@@ -1,0 +1,765 @@
+
+html{
+    font-family: 'Hind', Helvetica, Arial, Lucida, sans-serif;
+    color: #002b39;
+}
+body{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+strong{
+    color:#007fff;
+    text-align: center;
+    font-family: Hind;
+    font-size: 18px;
+
+}
+
+#perfil{
+
+    display: inline-block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+}
+
+p{
+    font-family: Hind;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+
+    
+}
+#primero{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#logoVenn{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+}
+h1,h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-top: 20px;
+    color: #002b39;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h3, h5{
+   
+    font-size: 27px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+
+}
+button{
+    display: block;
+    margin:auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 15px 45px 11px 46px;
+    object-fit: contain;
+    box-shadow: 0 9px 12px 0 rgba(125, 143, 155, 0.35);
+    background-image: linear-gradient(to top,#007fff, #00b1ff -10%);
+    border: 0;
+    color: #FFFFFF;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover{
+    color: #007fff;
+    border: 1px;
+    border-style: solid;
+    border-color: #007fff;
+    background: white;
+    
+
+}
+
+#seccionPrincipal{
+    
+    padding: 0;
+    margin: 0;
+    background-image: url("img/Grupo\ 9213@3x.webp");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  
+    width: 100%;
+   
+}
+
+.tarjeta_perfil{
+    display: grid;
+    grid-template-columns:  2fr 3fr 2fr;
+    grid-template-rows: 40px 180px;
+    
+    background-image: linear-gradient(to bottom, #fff, #fff 76%, #f0faff);
+    border: solid 1px #dfeaf0;
+    border-radius: 1.5%;
+    box-shadow: 0 25px 35px 0 rgba(26, 72, 100, 0.2);
+    background-size: cover;
+ 
+    
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+#tarjeta .foto img{
+    width: 220px;
+    height: 230px;
+    justify-self: center;
+    display: inline;
+    grid-column: 1;
+    grid-row: 1 / -1;
+   
+
+}
+.descripcion{
+    grid-column: 2;
+    max-height: 20px;
+}
+
+.descrip{
+    grid-column: 2 / -1;
+    grid-row-start: 2;
+    margin: 18px 18px 0 0;
+
+    
+}
+#tarjeta p{
+    text-align: justify;
+    display: inline-block;
+    
+}
+#tarjeta h5, #tarjeta h3{
+    display: inline;
+}
+ #tarjeta h5{
+     grid-row: 2;
+     grid-column: 2;
+     margin: 0;
+ }
+
+ .estrellas{
+    grid-row: 2;
+    grid-column: 3;
+    margin: 0;
+}
+
+#tarjeta2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-size: cover;
+    height: 300px;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 190px;
+    padding-top: 20px;
+
+    
+}
+
+.tarjetaProductos {
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 10px 5% !important;
+    box-shadow: 0 20px 15px 0 rgb(26 72 100 / 10%) !important;
+    border: solid 1px #ebf3f3;
+    background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0faff);
+    width: 400px;
+    height: 400px;
+ 
+    
+}
+.tarjetaProductos img{
+    width: 240px;
+    height: 250px;
+    display: inline;
+}
+.tarjetaProductos h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.titulo2{
+    padding-top: 60px;
+}
+
+#tarjeta3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 40px 80px 40px;
+    gap: 80px;
+    max-height: 280px;
+    max-width: 800px;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    justify-self: center;
+    
+}
+.tarjeta3_contenido .numero {
+    display: inline-block;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+
+}
+.tarjeta3_contenido p{
+    text-align: center;
+    margin: 0;
+}
+#tarjeta3 .linea img{
+    max-width: 600px;
+    max-height: 100px;
+    margin-left: 50px;
+    
+}
+
+#_1{
+    grid-column: 1;
+    grid-row: 1;
+}
+#_2{
+    grid-column: 2;
+    grid-row: 1;
+}
+#_3{
+    grid-column: 3;
+    grid-row: 1;
+}
+#linea_1{
+    grid-column: 1/ 4;
+    grid-row: 2;
+    align-self: flex-start;
+}
+.circulo{
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+}
+/*no funciona*/
+.circulo>img:hover{
+    background-color: #007fff;
+}
+
+
+.seccionCuatro img{
+    width: 100%;
+    margin-top: 80px;
+    position: absolute;
+   
+}
+.seccionCuatro #titulo{
+    padding-top: 200px;
+    color: black;
+}
+
+
+#seccionCuadricula{
+    display: grid;
+    grid-template-columns: 18rem 18rem 18rem;
+    grid-auto-rows: 12.5rem ;
+    gap: 5px;
+    max-height: 880px;
+    max-width: 800px;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+.tarjetaCaracteristica{
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 8px 5%;
+    box-shadow: 0 20px 15px 0 rgb(26 72 100 / 10%) !important;
+    border: solid 1px #d0d3d3;
+    background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0faff);
+    width: 15.625rem;
+    height: 7.5rem;
+    gap: 5px;
+    cursor: pointer;
+   
+}
+.tarjetaCaracteristica img{
+    margin-top: 10px;
+}
+.tarjetaCaracteristica strong{
+    color: rgb(32, 32, 32);
+    font-size: 16px;
+}
+.tarjetaCaracteristica p{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    font-size: 16px;
+}
+.tarjetaCaracteristica:hover{
+    border: 1px;
+    border-style: solid;
+    border-color: #007fff;
+}
+#footer{
+    background-color: #007fff;
+    width: 100%;
+    height: 200px;
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2.5rem 2.5rem 2.5rem;
+    grid-gap: 50px;
+   
+}
+#footer .logoFooter{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    grid-column: 1;
+    margin-left: 150px;
+ 
+}
+#footer .redes{
+    grid-column: 2;
+    margin-top: 60px;
+    justify-self: center;
+    margin-left: 120px;
+}
+.redes *{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+.terminos p{
+    color: rgb(248, 248, 248);
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+
+}
+.terminos .t1{
+    cursor: pointer;
+}
+.terminos .t2{
+    padding-left: 30pt;
+    cursor: pointer;
+
+}
+.terminos .t3{
+    padding-left: 30pt;
+    cursor: pointer;
+}
+#footer .terminos{
+    grid-column: 2 / 4;
+    grid-row: 2;
+    justify-self: end;
+    margin-top: 50px;
+}
+
+#footer #linea2{
+    align-self:center;
+    justify-self: center;
+    grid-row: 2;
+    grid-column: 1/ 4;
+}
+#footer #linea2 img{
+    width: 1050px;
+    height: 1.8px;
+    margin-top: 40px;
+    
+}
+#tarjeta3_2{
+    display: none;
+}
+#linea_2{
+    display: none;
+}
+@media screen and (min-width:756px) and (max-width:1005px){
+    #seccionPrincipal{
+        background-image: url("img/Grupo\ 9213.webp");
+        background-position: bottom center;
+        background-size: contain;
+    
+    }
+    .tarjeta_perfil{
+        max-width: 600px;
+        
+    }
+    .tarjetaProductos{
+        width: 300px;
+        height: 310px;
+    }
+    .tarjetaProductos img{
+        width: 180px;
+        height: 190px;
+    }
+    .tarjetaProductos h5{
+        font-size: 20px;
+    }
+    .tarjetaProductos p{
+        font-size: 14px;
+    }
+ 
+    .tarjetaCaracteristica{
+        width: 12rem;
+        height: 7rem;
+       
+    }
+    #footer .terminos{
+        grid-column-start: 1;
+        
+    }
+    
+}
+@media screen and (min-width:598px) and (max-width:756px) {
+   aside{
+       display: none;
+   }
+    p, strong, button{
+        font-size: 14px;
+    }
+ 
+    h1, h2{
+        font-size:30px;
+    }
+    h3, h5{
+        font-size: 17px;
+    }
+    .tarjeta_perfil{
+       
+        grid-template-columns:  1fr;
+        max-width: 280px;
+        height: 350px;
+        margin-top: 200px;
+    }
+  .foto{
+      justify-self: center;
+      align-self:flex-end;
+  }
+    .descripcion{
+        grid-column: 1;
+        grid-row: 4;
+        justify-self: center;
+
+      
+    }
+   
+    .descrip{
+        grid-column: 1;
+        grid-row-start: 2;
+        margin: 20px 20px 20px 20px;
+    
+        
+    }  
+     .estrellas{
+         justify-self: center;
+        width: auto;
+        grid-column: 1;
+
+    }
+    #tarjeta2{
+        width: 30%;
+    }
+    #tarjeta1_2, #tarjeta1_3{
+        display: none;
+        
+    }
+    .tarjeta3_contenido{
+        text-align: center;
+        justify-self: center;
+        border-radius: 10px;
+        
+        box-shadow: 0 20px 15px 0 rgb(26 72 100 / 10%) !important;
+        border: solid 1px #bdbdbd;
+        background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0faff);
+        width: 240px;
+        height: 256px;
+        margin-left: 70%;
+        
+    }
+    .tarjeta3_contenido .numero{
+        display: none;
+    }
+    .tarjeta3_contenido .circulo{
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 0;
+    }
+    .tarjeta3_contenido #txt3{
+        font-size: 20px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #_2, #_3{
+        display: none;
+    }
+    #tarjeta3_2 .lin img{
+        max-width: 200px;
+        max-height: 200px;
+        
+    }
+    #tarjeta3 .linea{
+        display: none;
+      
+    }
+    #tarjeta3_2{
+        display: grid;
+        grid-template-columns: repeat(3,5rem);
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    #tarjeta3_2 #linea_12{
+       grid-column: 1 / 4;
+       object-fit: contain;
+    }
+    #tarjeta3_2 .numCirculo img{
+        background-color: #fff;
+        border: 0.5px;
+        border-style: solid;
+        border-radius: 35%;
+        padding: 6px;
+        
+    }
+    #tarjeta3_2 #num1 img{
+        max-width: 16px;
+        
+    }
+   
+    #tarjeta3_2 #num2 img{
+        max-width: 20px;
+        
+    }
+    #tarjeta3_2 #num3 img{
+        max-width: 20px;
+    }
+    .seccionCuatro{
+        display: none;
+       
+    }
+    
+    #seccionCuadricula{
+        
+        grid-template-columns: repeat(auto-fill, minmax(18rem,1fr));
+        grid-auto-rows: 10rem;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 350px;
+    }
+    .tarjetaCaracteristica{
+        width: 12rem;
+        height: 7rem;
+    }
+   
+    #seccionPrincipal{
+        background-image: none;
+     
+    }
+    #footer .redes{
+        
+        margin-left: 0;
+        
+    }
+    #footer .terminos{
+        grid-column-start: 1;
+        
+    }
+  
+}
+@media screen and (min-width:360px) and (max-width:598px) {
+    aside{
+        display: none;
+    }
+     p, strong, button{
+         font-size: 14px;
+     }
+  
+     h1, h2{
+         font-size:30px;
+     }
+     h3, h5{
+         font-size: 17px;
+     }
+     .tarjeta_perfil{
+        
+         grid-template-columns:  1fr;
+         max-width: 280px;
+         height: 350px;
+         margin-top: 200px;
+     }
+   .foto{
+       justify-self: center;
+       align-self:flex-end;
+   }
+     .descripcion{
+         grid-column: 1;
+         grid-row: 4;
+         justify-self: center;
+ 
+       
+     }
+    
+     .descrip{
+         grid-column: 1;
+         grid-row-start: 2;
+         margin: 20px 20px 20px 20px;
+     
+         
+     }  
+      .estrellas{
+          justify-self: center;
+         width: auto;
+         grid-column: 1;
+ 
+     }
+     #tarjeta2{
+         width: 30%;
+     }
+     #tarjeta1_2, #tarjeta1_3{
+         display: none;
+         
+     }
+     .tarjeta3_contenido{
+         text-align: center;
+         justify-self: center;
+         border-radius: 10px;
+         
+         box-shadow: 0 20px 15px 0 rgb(26 72 100 / 10%) !important;
+         border: solid 1px #bdbdbd;
+         background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0faff);
+         width: 220px;
+         height: 236px;
+         margin-left: 70%;
+         
+     }
+     .tarjeta3_contenido .numero{
+         display: none;
+     }
+     .tarjeta3_contenido .circulo{
+         justify-self: center;
+         align-self: center;
+         margin-bottom: 0;
+     }
+     .tarjeta3_contenido #txt3{
+         font-size: 20px;
+         margin-top: 0;
+         padding-top: 0;
+     }
+     #_2, #_3{
+         display: none;
+     }
+     #tarjeta3_2 .lin img{
+         max-width: 180px;
+         max-height: 180px;
+         
+     }
+     #tarjeta3 .linea{
+         display: none;
+       
+     }
+     #tarjeta3_2{
+         display: grid;
+         grid-template-columns: repeat(3,5rem);
+         justify-content: center;
+         justify-items: center;
+         
+     }
+     #tarjeta3_2 #linea_12{
+        grid-column: 1 / 4;
+        object-fit: contain;
+     }
+     #tarjeta3_2 .numCirculo img{
+         background-color: #fff;
+         border: 0.5px;
+         border-style: solid;
+         border-radius: 35%;
+         padding: 6px;
+         
+     }
+     #tarjeta3_2 #num1 img{
+         max-width: 16px;
+         
+     }
+    
+     #tarjeta3_2 #num2 img{
+         max-width: 20px;
+         
+     }
+     #tarjeta3_2 #num3 img{
+         max-width: 20px;
+     }
+     .seccionCuatro{
+         display: none;
+        
+     }
+     
+     #seccionCuadricula{
+         
+         grid-template-columns: 18rem;
+         grid-auto-rows: 8rem;
+         margin-right: 0;
+         margin-left: 0;
+         margin-bottom: 800px;
+         
+     }
+     .tarjetaCaracteristica{
+         width: 12rem;
+         height: 7rem;
+        
+     }
+    
+     #seccionPrincipal{
+         background-image: none;
+      
+     }
+     #footer .redes{
+         
+         margin-left: 0;
+         
+     }
+     #footer .terminos{
+         grid-column-start: 1;
+         
+     }
+   
+ }
